@@ -44,6 +44,8 @@
                     console.log("Logging in with token");
                     loginWithToken(token);
                 }
+            }).catch(error => {
+                alert("Указан неверный токен");
             });
         }
     });
